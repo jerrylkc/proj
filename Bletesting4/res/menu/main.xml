@@ -1,0 +1,17 @@
+ 
+    
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_refresh"
+          android:title="更新"
+          android:checkable="false"
+          android:orderInCategory="1"
+          android:showAsAction="ifRoom"/>
+    <item android:id="@+id/menu_scan"
+          android:title="搜尋"
+          android:orderInCategory="100"
+          android:showAsAction="ifRoom|withText"/>
+    <item android:id="@+id/menu_stop"
+          android:title="停止"
+          android:orderInCategory="101"
+          android:showAsAction="ifRoom|withText"/>
+</menu>
